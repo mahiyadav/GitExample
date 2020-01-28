@@ -12,12 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(reverse(text: "stressed"))
         // Do any additional setup after loading the view.
     }
 
     @IBAction func btn_GitClicked(_ sender: Any) {
         print("method called")
     }
-    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
+    }
 }
 
