@@ -25,17 +25,33 @@
                                     <action selector="btn_GitClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pBV-m2-YaE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wE1-Mc-fRY">
+                                <rect key="frame" x="10" y="551" width="394" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="D8J-OX-rv2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tag-J1-bW4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IgS-gW-RqZ"/>
                             <constraint firstItem="tag-J1-bW4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lr3-dO-rVr"/>
+                            <constraint firstItem="wE1-Mc-fRY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PI7-Vd-0uI"/>
+                            <constraint firstItem="wE1-Mc-fRY" firstAttribute="top" secondItem="tag-J1-bW4" secondAttribute="bottom" constant="88" id="h8E-b3-dbL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wE1-Mc-fRY" secondAttribute="trailing" constant="10" id="iDf-QG-IHH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="reverString" destination="wE1-Mc-fRY" id="Ox7-c5-tkD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
         </scene>
     </scenes>
 </document>
