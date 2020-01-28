@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btn_GitClicked(_ sender: Any) {
+        print("method called")
+    }
+    
 }
 
